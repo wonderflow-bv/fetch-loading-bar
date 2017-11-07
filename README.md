@@ -8,7 +8,7 @@
 
 
 
-# General installation into a 3rd party app (to be improved)
+# Installation into a 3rd party app (to be improved/packaged)
 
 1. get an app (or create scaffold with angularjs-webpack)
 2. install fetch interceptor `npm install fetch-intercept --save` (Link)[https://github.com/werk85/fetch-intercept]
