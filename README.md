@@ -1,3 +1,14 @@
+1. get an app (or create scaffold with angularjs-webpack)
+2. install fetch interceptor `npm install fetch-intercept --save` (Link)[https://github.com/werk85/fetch-intercept]
+3. copy angularjs loading bar files: `loading-bar.js` and `loading-bar.css` in the appropriate folders
+4. in a main controller (every present)
+
+  1. `import import fetchIntercept from 'fetch-intercept';`
+  2. register interceptor `fetchIntercept.register(fetchLoadingBar);`
+
+
+
+
 # angularjs-webpack
 
 [![Dependency Status](https://david-dm.org/preboot/angularjs-webpack/status.svg)](https://david-dm.org/preboot/angular-webpack#info=dependencies) [![devDependency Status](https://david-dm.org/preboot/angularjs-webpack/dev-status.svg)](https://david-dm.org/preboot/angularjs-webpack#info=devDependencies)
