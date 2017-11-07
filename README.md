@@ -2,7 +2,7 @@
 
 1. `git clone git@github.com:wonderflow-bv/fetch-loading-bar.git`
 2. `cd fetch-loading-bar`
-3. `npm start`
+3. `npm i && npm start`
 4. `open http://localhost:8080`
 5. open Chrome Dev Console and click on `Start` button
 
