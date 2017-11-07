@@ -1,3 +1,5 @@
+# General installation into a 3rd party app (to be improved)
+
 1. get an app (or create scaffold with angularjs-webpack)
 2. install fetch interceptor `npm install fetch-intercept --save` (Link)[https://github.com/werk85/fetch-intercept]
 3. copy angularjs loading bar files: `loading-bar.js` and `loading-bar.css` in the appropriate folders
@@ -5,6 +7,14 @@
 
   1. `import import fetchIntercept from 'fetch-intercept';`
   2. register interceptor `fetchIntercept.register(fetchLoadingBar);`
+
+# Demo
+
+1. `git clone git@github.com:wonderflow-bv/fetch-loading-bar.git`
+2. `cd fetch-loading-bar`
+3. `npm start`
+4. `open http://localhost:8080`
+5. open Chrome Dev Console and click on `Start` button
 
 
 
